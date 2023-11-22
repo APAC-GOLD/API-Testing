@@ -1,0 +1,12 @@
+from fastapi import FastAPI
+from typing import Union 
+# You can use Union to declare that a parameter can be one of several types. 
+# List, Dict, Tuple, Set, etc. are all available in the typing module.
+from pydantic import BaseModel
+
+Further Learning:
+https://fastapi.tiangolo.com/tutorial/response-status-code/ might be helpful for Week 3 - Day 3 homework
+https://fastapi.tiangolo.com/tutorial/handling-errors/
+https://fastapi.tiangolo.com/tutorial/dependencies/
+
+GitHub https://github.com/APAC-GOLD/API-Testing.git
